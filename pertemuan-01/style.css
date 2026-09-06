@@ -10,7 +10,7 @@ header {
     background-color: #00e1ff;
     color: #000000;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 nav {
@@ -22,7 +22,7 @@ nav {
 nav a {
     color: #ffffff;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 15px;
     font-weight: bold;
 }
 
@@ -31,7 +31,7 @@ nav a:hover {
 }
 
 article {
-    padding: 20px;
+    padding: 5px;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -80,4 +80,29 @@ li {
 article p {
     padding: 4px 0;
     width: 100%;
+}
+
+.tombol-contact{
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.tombol-email{
+    display: inline-block;
+    background-color: #a2ff00;
+    color: #000000;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.tombol-wa{
+    display: inline-block;
+    background-color: #ffaa00;
+    color: #000000;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 3px;
 }
